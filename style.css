@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* { margin: 0; padding: 0; border: none;}
+a {text-decoration: none;}
+
+ul{
+    list-style: none;
+}
+
+h5{
+    color: #5d5d5d;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    transition: background 0.2s linear;
+    background-color: #fff;
+}
+
+body.dark{
+    background-color: #232c35;
+}
+
+body.dark h5 {
+    color: black;
+}
+
+header{
+    position: relative;
+    font-size: 25px;
+    height: 15vh;
+    width: 100%;
+    background-color: #232c35;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #E3350D;
+}
+
+header img{
+    height: 50px;
+    cursor: pointer;
+    margin: 50px;
+}
+
+header img:hover{
+    height: 60px;
+}
+
+.titulo{
+    width: 90%;
+}
+
+body.dark header img {
+    height: 70px;
+}
+
+/* Hover effect for Solrock in dark mode */
+body.dark header img:hover {
+    height: 80px;
+}
+
+header h1{
+    margin-left: 43vw;
+}
+
+
+main{
+    width: 100%;
+    height: auto;
+    position: relative;
+    height: auto;
+    width: 100vw;
+}
+
+.container{
+    display: flex;
+    margin: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+.sub_container{
+    width: 20vw;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    background-color: #f8f8f870;
+    padding: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.atributos{
+    justify-content: center;
+    display: flex;
+}
+
+.atributos li{
+    padding: 2px 20px;
+    border-radius: 3px;
+    margin: 3px;
+    font-size: 12px;
+}
+
+.grass{
+    background: #9bcc50;
+}
+
+.poison{
+    background-color: #b97fc9;
+    color: white;
+}
+
+.fire{
+    background-color: #fd7d24;
+    color: white;
+}
+
+.water{
+    background-color: #4592c4;
+    color: white;
+}
+
+.flying{
+    background: linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
+    background-color: #3dc7ef;
+}
+
+.normal{
+    background-color: #a4acaf;
+}
+
+.ground{
+    background: linear-gradient(180deg, #f7de3f 50%, #ab9842 50%);
+    background-color: #f7de3f;
+}
+
+.dragon{
+    background: linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
+    background-color: #53a4cf;
+    color: white;
+}
+
+img{
+    height: 180px;
+    margin-bottom: 15px;
+}
+
+.info{
+    height: 30%;
+    width: 90%;
+    overflow: auto;
+}
+
+footer{
+    width: 100vw;
+    height: 15vh;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 11px;
+}
+
+footer img{
+    height: 30px;
+}
